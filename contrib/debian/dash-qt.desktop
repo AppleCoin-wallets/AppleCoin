@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AppleCoin
+Comment=AppleCoin P2P Cryptocurrency
+Comment[fr]=AppleCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AppleCoin, eşten eşe kriptografik sanal para birimi
+Exec=AppleCoin-qt %u
+Terminal=false
+Type=Application
+Icon=dash128
+MimeType=x-scheme-handler/AppleCoin;
+Categories=Office;Finance;
