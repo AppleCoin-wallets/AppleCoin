@@ -10,7 +10,7 @@ pkgconfig_DATA = libdashconsensus.pc
 endif
 
 BITCOIND_BIN=$(top_builddir)/src/AppleCoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/AppleCoin_qt$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/AppleCoin-qt$(EXEEXT)
 BITCOIN_CLI_BIN=$(top_builddir)/src/AppleCoin-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 

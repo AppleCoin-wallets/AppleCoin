@@ -1,4 +1,4 @@
-bin_PROGRAMS += qt/AppleCoin_qt
+bin_PROGRAMS += qt/AppleCoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # dash qt core #
@@ -593,9 +593,9 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 CLEANFILES += $(CLEAN_QT)
 
 AppleCoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_AppleCoin_qt_OBJECTS) qt/AppleCoin_qt$(EXEEXT) $(LIBBITCOINQT)
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_AppleCoin_qt_OBJECTS) qt/AppleCoin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-AppleCoin_qt : qt/AppleCoin_qt$(EXEEXT)
+AppleCoin_qt : qt/AppleCoin-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)
