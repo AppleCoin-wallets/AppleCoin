@@ -137,7 +137,7 @@ public:
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
         consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("0x000007d91d1254d60e2dd1ae580383070a4ddffa4c64c2eeb4a2f9ecc0414343");
+        consensus.BIP34Hash = uint256S("0x000008928318fde95d54e8e34e12db3434c4f36776ec185108a2078cec04eba7");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // AppleCoin: 1 day
         consensus.nPowTargetSpacing = 1 * 60; // AppleCoin: 2.5 minutes
@@ -164,10 +164,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00"); // 782700
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000002e59457d386a5");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00"); // 782700
+        consensus.defaultAssumeValid = uint256S("0x00000000d9d31f0f811725c2cfac5653f34002be4464a38f1c2b476e4763f02a");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -190,7 +190,63 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x0000006dfc92ca2306d822e9dcb390643c4b7c89bfa5c705cba826ab26a1f04d"));
         assert(genesis.hashMerkleRoot == uint256S("0x2745a9b24d2e475ffefd022c3fe98a03f135c2e67d76273aa8efb6293d9e98e7"));
 
-        vSeeds.push_back(CDNSSeedData("AppleCoin.org", "154.91.33.92"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "?43.139.207.152"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.138.25.59"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "116.62.78.243"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "111.92.242.60"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "77.37.144.223"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "154.211.13.226"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "213.136.85.148"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "111.92.242.108"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.136.119.214"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "95.165.168.191"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "107.151.240.190"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "103.42.30.105"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "67.5.114.238"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "38.6.179.84"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "101.43.169.49"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.153.194.29"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "45.63.110.30"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "106.54.213.131"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "45.32.136.134"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "118.190.215.225"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "156.253.13.100"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "92.68.1.2"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "173.240.13.50"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "124.223.44.148"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "95.179.141.80"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "207.180.201.182"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "118.89.106.194"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "47.56.7.27"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "92.68.1.1"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "175.178.238.60"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "164.68.112.227"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.138.102.142"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "95.179.192.84"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "64.44.185.246"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "101.43.49.115"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "111.92.242.211"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "103.42.30.104"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "101.42.155.114"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.156.1.68"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "154.12.30.155"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "42.200.213.82"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "111.229.106.36"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.138.232.181"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "154.12.81.149"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.129.190.141"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "107.151.240.153"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "119.8.118.92"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "81.68.84.143"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "101.34.77.182"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "43.136.73.170"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "144.202.114.238"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "139.155.151.58"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "123.60.26.34"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "107.151.240.63"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "124.222.31.151"));
+        vSeeds.push_back(CDNSSeedData("mn-community", "60.204.213.207"));
+
 
         // AppleCoin addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
@@ -221,10 +277,14 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             ( 0, uint256S("0x0000006dfc92ca2306d822e9dcb390643c4b7c89bfa5c705cba826ab26a1f04d")),
-            1692107000, // * UNIX timestamp of last checkpoint block
-            0,    // * total number of transactions between genesis and last checkpoint
-                        //   (the tx=... number in the SetBestChain debug.log lines)
-            0        // * estimated number of transactions per day after checkpoint
+            ( 1, uint256S("0x000008928318fde95d54e8e34e12db3434c4f36776ec185108a2078cec04eba7")),
+            ( 16, uint256S("0x000006aee1408197b68b18876371dd036a376644a1053a94166d00f0ff95ec36")),
+            ( 101, uint256S("0x0000020da81dd38c7d5e0f4d4172046e49ea319cf621aa9fd5def193a02232e7")),
+            ( 5723, uint256S("0x000000007be8e404ddbcfb0526a5a22769650497f75abaa6f665d1f3d913ad62")),
+            ( 15828, uint256S("0x00000000056a999a7638b45da08bb60a0fcf242d49bf53694544e24f57e01138")),
+            ( 34143, uint256S("0x00000000d9d31f0f811725c2cfac5653f34002be4464a38f1c2b476e4763f02a")),
+
+            1694362123, 37890, 1.000
         };
     }
 };
