@@ -1,4 +1,4 @@
-﻿# Original source code: https://github.com/blade-coder/apple
+# Original source code: https://github.com/blade-coder/apple
 
 ![](https://applecoin.tech/assets/img/headerlogo.png)
 
